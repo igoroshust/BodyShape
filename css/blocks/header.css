@@ -1,0 +1,14 @@
+.header {
+    height: 750px;
+
+
+    /* Фоновое изображение для экранов с различной плотностью пикселей */
+    background-image: image-set(
+        url('./../../img/background/hero-bg.jpg') 1x, /* Экраны с обычной плотностью пикселей */
+        url('./../../img/background/hero-bg@2x.jpg') 2x /* Ретина */
+    );
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Фон заполняет весь размер блока */
+}

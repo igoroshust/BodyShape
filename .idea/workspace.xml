@@ -5,53 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c92c2d2d-485f-45a0-a490-716b697a470e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/beast-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/beast-bg@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card-2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card-3@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card-4@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/card@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contact-form-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contact-form-bg@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dzen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero-bg@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero-logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-01@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-02@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-03@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-04@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-05@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-06@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-07@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/program-08@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rutube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/telegram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trainer-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trainer-02@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trainer-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trainer-03@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2sRpUUudM5myyu1xLiX4a5bWOHe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,13 +36,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.file.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Igor/Layouts/reset.css"
+    "last_opened_file_path": "C:/Users/Igor/Layouts/BodyShape"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Igor\Layouts\BodyShape\css" />
+      <recent name="C:\Users\Igor\Layouts\BodyShape\css\base" />
+      <recent name="C:\Users\Igor\Layouts\BodyShape\css\blocks" />
+      <recent name="C:\Users\Igor\Layouts\BodyShape" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

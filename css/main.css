@@ -1,1 +1,10 @@
-@import url('reset.css')
+/* Fonts */
+@import url('./../fonts/roboto/roboto.css');
+@import url('./../fonts/bebasneue/bebasneue.css');
+
+/* Base */
+@import url('./base/reset.css');
+@import url('./base/base.css');
+
+/* Blocks */
+@import url('./blocks/header.css');

@@ -1,0 +1,30 @@
+:root {
+    --bg-color: #1F2A32; /* Цвет фона */
+    --normal-text-color-grey: #FAFAF5; /* Цвет обычного текста (сабтайтлы) */
+    --accent: #FFD479; /* Цвет заголовка (жёлтый) */
+
+    --font-base: 'Roboto', sans-serif; /* Базовый шрифт */
+    --font-accent: 'Bebas Neue', sans-serif;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--normal-text-color-grey);
+
+    font-family: var(--font-base);
+    font-weight: 300;
+}
+
+.title-1 {
+    font-family: var(--font-accent);
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.container {
+    max-width: 1170px; /* Не вырастет больше 1170px */
+    width: 100%; /* Растёт насколько может, важно для мобильной вёрстки */
+
+    margin: 0 auto; /* Отступы. Контейнер размещается по центру страницы */
+}
