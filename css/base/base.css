@@ -15,16 +15,21 @@ body {
     font-weight: 300;
 }
 
-.title-1 {
+a {
+    color: var(--normal-text-color-grey);
+}
+
+/* .title-1 {
     font-family: var(--font-accent);
     color: var(--accent);
     font-weight: 700;
     font-size: 96px;
-}
+} */
 
 .container {
-    max-width: 1170px; /* Не вырастет больше 1170px */
+    max-width: 1200px; /* Не вырастет больше 1200px! Изначально было 1170px, но +30px из-за padding 15px слева и справа */
     width: 100%; /* Растёт насколько может, важно для мобильной вёрстки */
 
     margin: 0 auto; /* Отступы. Контейнер размещается по центру страницы */
+    padding: 0 15px;
 }
