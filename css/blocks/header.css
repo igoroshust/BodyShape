@@ -10,7 +10,7 @@
     );
 
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left top; /* hero по центру */
     background-size: cover; /* Фон заполняет весь размер блока */
 }
 
@@ -38,4 +38,46 @@
 .header-img {
     padding-top: 125px;
     text-align: right;
+}
+
+/* Media */
+
+@media (max-width: 800px) {
+    .header-logo {
+        display: none;
+    }
+
+    .header-row {
+        justify-content: center;
+    }
+
+    .header-img {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        height: auto; /* Убираем фиксированную высоту */
+        padding-bottom: 60px;
+
+    }
+
+    .header-logo {
+        display: block;
+    }
+
+    .header-row {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+    .header-nav {
+        flex-direction: column;
+        row-gap: 30px;
+    }
 }
