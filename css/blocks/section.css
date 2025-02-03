@@ -35,3 +35,9 @@
     text-align: center;
 }
 
+.section-trainers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 1fr - каждая колонка занимает равную долю пространства.
+                                            1/4 или 25% от доступной ширины контейнера */
+    grid-gap: 35px 30px; /* 35 между рядами, 30 между колонками */
+}
