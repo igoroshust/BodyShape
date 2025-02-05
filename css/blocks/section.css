@@ -42,7 +42,22 @@
     grid-gap: 35px 30px; /* 35 между рядами, 30 между колонками */
 }
 
+/* Программы и группы */
+.section-programs-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 150px 32px;
+}
+
+
 /* Media */
+@media (max-width: 1200px) {
+    .section-programs-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 80px 32px;
+    }
+}
 
 @media (max-width: 800px) {
     .section {
@@ -51,6 +66,10 @@
 
     .section-trainers-grid {
         grid-template-columns: repeat(3, 1fr); /* 3 карточки в ряд */
+    }
+
+    .section-programs-grid {
+        grid-gap: 60px 32px;
     }
 }
 
@@ -70,6 +89,16 @@
     .section-trainers-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .section-programs-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 60px 20px;
+    }
+
+    /* Скрываем br */
+    .br-title {
+        display: none;
+    }
 }
 
 @media (max-width: 400px) {
@@ -77,5 +106,11 @@
         grid-template-columns: repeat(1, 1fr);
         justify-items: center; /* Центрирует элементы по горизонтали */
         align-items: center; /* Центрирует элементы по вертикали */
+    }
+
+    .section-programs-grid {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center; /* Центрирует элементы по горизонтали */
+        align-items: center;
     }
 }
