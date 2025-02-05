@@ -47,9 +47,15 @@
     }
 }
 
-/* @media (max-width: 600px) {
-    .contacts-title {
-        font-size: 60px;
+/* Media */
+@media (max-width: 600px) {
+    .form-group__button {
+        display: block; /* Обёртка занимает всю ширину */
+        width: 100%;
+    }
+
+    .form-group__button .button {
+        width: 100%; /* Кнопка также занимает 100% ширины */
     }
 }
 
