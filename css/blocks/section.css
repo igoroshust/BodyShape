@@ -27,7 +27,7 @@
 .section-title {
     font-family: var(--font-accent);
     font-weight: 700;
-    font-size: 96px;
+    font-size: clamp(3rem, 1.909rem + 5.45vw, 6rem); /* https://min-max-calculator.9elements.com/?48,96,320,1200 */
 
     color: var(--accent);
     letter-spacing: 0.08em; /* 7.5px. Значение 0.08 вычислил плагин Inspect Styles, во вкладке 'code' */
@@ -40,4 +40,42 @@
     grid-template-columns: repeat(4, 1fr); /* 1fr - каждая колонка занимает равную долю пространства.
                                             1/4 или 25% от доступной ширины контейнера */
     grid-gap: 35px 30px; /* 35 между рядами, 30 между колонками */
+}
+
+/* Media */
+
+@media (max-width: 800px) {
+    .section {
+        padding: 100px 0; /* Уменьшаем на 50px*/
+    }
+
+    .section-trainers-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 карточки в ряд */
+    }
+}
+
+@media (max-width: 600px) {
+    .section {
+        padding: 80px 0;
+    }
+
+    .section-header {
+        margin-bottom: 30px;
+    }
+
+    .section-header p {
+        font-size: 14px;
+    }
+
+    .section-trainers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .section-trainers-grid {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center; /* Центрирует элементы по горизонтали */
+        align-items: center; /* Центрирует элементы по вертикали */
+    }
 }

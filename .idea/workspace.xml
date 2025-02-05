@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c92c2d2d-485f-45a0-a490-716b697a470e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/card-trainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/card-trainer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blocks/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blocks/section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Igor\Layouts\BodyShape\img\trainers" />
       <recent name="C:\Users\Igor\Layouts\BodyShape\css" />
       <recent name="C:\Users\Igor\Layouts\BodyShape\css\base" />
       <recent name="C:\Users\Igor\Layouts\BodyShape\css\blocks" />
