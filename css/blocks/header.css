@@ -2,7 +2,6 @@
     padding-top: 30px;
     height: 750px;
 
-
     /* Фоновое изображение для экранов с различной плотностью пикселей */
     background-image: image-set(
         url('./../../img/background/hero-bg.jpg') 1x, /* Экраны с обычной плотностью пикселей */
@@ -41,7 +40,6 @@
 }
 
 /* Media */
-
 @media (max-width: 800px) {
     .header-logo {
         display: none;

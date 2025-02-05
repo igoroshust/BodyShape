@@ -14,20 +14,11 @@ body {
 
     font-family: var(--font-base);
     font-weight: 300;
-
-    padding-bottom: 600px; /* на момент разработки */
 }
 
 a {
     color: var(--normal-text-color-grey);
 }
-
-/* .title-1 {
-    font-family: var(--font-accent);
-    color: var(--accent);
-    font-weight: 700;
-    font-size: 96px;
-} */
 
 .container {
     max-width: 1200px; /* Не вырастет больше 1200px! Изначально было 1170px, но +30px из-за padding 15px слева и справа */
