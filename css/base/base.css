@@ -2,6 +2,7 @@
     --bg-color: #1F2A32; /* Цвет фона */
     --normal-text-color-grey: #FAFAF5; /* Цвет обычного текста (сабтайтлы) */
     --accent: #FFD479; /* Цвет заголовка (жёлтый) */
+    --btn-hover: #fcc54e;
 
     --font-base: 'Roboto', sans-serif; /* Базовый шрифт */
     --font-accent: 'Bebas Neue', sans-serif;
@@ -13,6 +14,8 @@ body {
 
     font-family: var(--font-base);
     font-weight: 300;
+
+    padding-bottom: 600px; /* на момент разработки */
 }
 
 a {

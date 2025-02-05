@@ -1,0 +1,32 @@
+.button {
+    display: inline-block;
+
+    /* padding: 18px 45px 15px; */ /* В новом варианте от 45 до 15px */
+    padding: 18px clamp(0.938rem, 0.256rem + 3.41vw, 2.813rem) 15px;
+
+    border-radius: 7px;
+    height: 52px;
+
+    background: var(--accent);
+
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 19px;
+
+    letter-spacing: 0.26em;
+    color: #000;
+    line-height: 1; /* Текст по центру кнопки */
+
+    transition: background-color 0.2s ease-in;
+}
+
+.button:hover,
+.button:active {
+    background-color: var(--btn-hover);
+}
+
+@media (max-width: 800px) {
+    .button {
+        letter-spacing: 0.16em;
+    }
+}
